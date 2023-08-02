@@ -23,7 +23,7 @@ This is basically a much improved solution for a problem "solved" here: https://
 - supports files or Folders
 - lets you provide your path with autocompletion (since it uses the full path)
 - more robust design over all
-- is tested with 2 diffrnet systems where there is snapper in use.
+- is tested with 2 different systems where there is snapper in use.
   - but it should work with any regular full filesystem snapshots/subvolumes
 - Only for use with BTRFS 
 
