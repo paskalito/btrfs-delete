@@ -2,8 +2,10 @@
 Script to delete a File or Folder on a BTRFS Filesystem and in all its Snapshots/Subvolumes.
 
 # Usage
-Call the script and provide it with the path to the file or folder you with to delete
+Call the script and provide it with the path to the file or folder you with to delete 
+
 `bash ./btrfs-delete /Full/Path/to/your/file/or/folder`
+
 watch your space freeing up
 
 # Installation
