@@ -4,7 +4,7 @@ Script to delete a File or Folder on a BTRFS Filesystem and in all its Snapshots
 # Usage
 Call the script and provide it with the path to the file or folder you with to delete 
 
-`bash ./btrfs-delete /Full/Path/to/your/file/or/folder`
+`sudo bash ./btrfs-delete /Full/Path/to/your/file/or/folder`
 
 watch your space freeing up
 
@@ -16,6 +16,7 @@ watch your space freeing up
 
 
 # Features / Known Limitations
+- most likely you need to run it with root permissions (to make the subvolumes writable)
 This is basically a much improved solution for a problem "solved" here: https://www.suse.com/support/kb/doc/?id=000019594
 - way way way faster
 - supports files or Folders
