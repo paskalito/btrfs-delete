@@ -17,6 +17,7 @@ watch your space freeing up
 
 # Features / Known Limitations
 - most likely you need to run it with root permissions (to make the subvolumes writable)
+  
 This is basically a much improved solution for a problem "solved" here: https://www.suse.com/support/kb/doc/?id=000019594
 - way way way faster
 - supports files or Folders
